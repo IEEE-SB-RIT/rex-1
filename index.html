@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="icon" href="icon/IEEE-Icon.png" type="image/icon">
+        <script src="https://kit.fontawesome.com/740c431368.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>REX</title>
+
+    </head>
+
+    <body>
+
+        <div id="loadingDiv">
+            <div class="loader"></div>
+        </div>
+
+        <header id="head">
+
+            <nav class="logos">
+                <img class="logo-1" src="logos/ieee-logo.png" height="50px" alt="IEEE Logo">
+                <img class="logo-2" src="logos/ieee-ras.png" height="50px" alt="IEEE RAS Logo">
+                <img class="logo-3" src="logos/ieee-rex.jpg" height="50px" alt="IEEE REX Logo">
+            </nav>
+
+            <nav class="section-list">
+                    <a href="https://ieeeritsb.com" target="_blank">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#events">Events</a>
+                    <a href="#tour">Virtual IV</a>
+                    <a href="#contact">Contact Us</a>
+            </nav>
+
+            <div id="toggleButton" class="toggle" onclick="dropFunction()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </header>
+
+        <div class="drop-menu" id="drop-content">
+
+            <a href="https://ieeeritsb.com" target="_blank">Home</a>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#tour">Virtual IV</a>
+            <a href="#contact">Contact Us</a>
+
+        </div>
+
+        <div class="slides">
+
+                <img src="backgrounds/asimo.jpg" alt="">
+                <img src="backgrounds/asimo-mobile.jpg" alt="">
+                             
+                <div class="sign">
+                    <span class="fast-flicker">R</span><span class="flicker">.</span>E<span class="fast-flicker">.</span><span class="flicker">X</span>
+                </div>
+
+        </div>
+
+        <div class="about" id="about">
+
+            <div class="about-text">
+                What is REX?
+            </div>
+
+            <div class="info">
+                <p class="info-head">Robotics Experience Program (REX) is a unique learning platform hosted by IEEE RAS SBC RIT with the objective to strengthen student's 
+                    skills and knowledge in robotics and automation through a month-long virtual specialization program. The event opens up the opportunity to interact with 
+                    reputed personalities to build a strong base in ML, AR, IoT and 3D printing through specialization courses and interactive sessions. The event offers 30+ workshops, 
+                    10+ lecture series and a virtual IV for participants around the world to share, exchange, and establish knowledge in robotics and automation.</p>
+            </div>
+
+            <a href="#head">
+                <div id="myBtn" class="mybtn">
+                    <i class="fas fa-arrow-up fa-lg"></i>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="events" id="events">
+
+            <h1>Events</h1>
+
+            <div class="event-col">
+
+                <div class="price event-1">
+                    <h3>Deep Learning Master Class</h3>
+                    <ul class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>08/08/2020</span></li>
+                        <li><i class="far fa-clock"></i><span>3 PM - 5 PM</span></li>
+                    </ul>
+                    <p class="event-para">The course will take you from beginner and intermediate levels to advanced users.<br>
+                        Highlights:<br>
+                        Introduction to Machine Learning<br>
+                        Computer Vision<br>
+                        Model with TF.js<br>
+                        Transfer learning on models<br>
+                        <br>
+                        20 hour Course including Labs.<br>
+                        $25 worth lifetime Cloud credits included in the course.
+                    </p>
+                    <div class="price-info-ras">
+                        <span>RAS : &#x20b9;100</span><br>
+                        <span>IEEE : &#x20b9;200</span><br>
+                        <span>Non IEEE : &#x20b9;400</span>
+                    </div>
+                  
+                    <div class="bt-rs">
+                        <button class="btn" id="btn1">Register Now</button>
+                    </div>
+                </div>
+
+                <div class="price event-2">
+                    <h3>Introduction to 3D Printing Technologies</h3>
+                    <ul  class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>14/08/2020 - 15/08/2020</span></li>
+                        <!--<li><i class="far fa-clock"></i><span>10 AM - 5 PM</span></li>-->
+                    </ul>
+                    <p class="event-para">Introduction  to  3D  printing  is a 32-hours workshop designed  to  learn  3D  printing from scratch without  delving into  the  complexities. 
+                        You can learn Autodesk Fusion 360 3D designing software, tools, hardwares used, advanced techniques for improving the quality of objects and saving materials 
+                        while printing, the software and hardware aspects of 3D printers to develop innovative products and prototypes of best quality at least possible cost.
+                    </p>
+                    <div class="price-info-ras">
+                        <span>RAS : &#x20b9;50</span>
+                        <span>IEEE : &#x20b9;100</span>
+                        <span>Non IEEE : &#x20b9;200</span>
+                    </div>
+    
+                    <div class="bt-rs">
+                        <button class="btn" id="btn2">Register Now</button>
+                    </div>
+                </div>
+
+                <div class="price event-3">
+                    <h3>AR Filter Development</h3>
+                    <ul  class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>03/09/2020 - 05/09/2020</span></li>
+                        <!--<li><i class="far fa-clock"></i><span>6 PM - 8 PM</span></li>-->
+                    </ul>
+                    <p class="event-para">IEEE RAS SBC RIT in collaboration with INFUSORY set forth a 3-day workshop on Designing and Development of Instagram 
+                    and Facebook AR Filters using SparkAR on behalf of REX(Robotics Experience program). The session will be handled by Sreeram Hrithwik,Spark AR 
+                    Specialist, Infusory Future Tech Labs Pvt Ltd.
+                    </p>
+                    <div class="price-info-ras">
+                        <!--<span>RAS : &#x20b9;0</span>
+                        <span>IEEE : &#x20b9;0</span>-->
+                        <span>Non IEEE : &#x20b9;100</span>
+                    </div>
+                        
+                    <div class="bt-rs">
+                        <button class="btn" id="btn3">Register Now</button>
+                    </div>
+                 </div>
+
+                <div class="price event-4">
+                    <h3>Introduction to IOT</h3>
+                    <ul class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>20/09/2020 - 22/09/2020</span></li>
+                        <li><i class="far fa-clock"></i><span>4 PM - 6 PM</span></li>
+                    </ul>
+                    <p class="event-para">IEEE RAS SBC RIT in collaboration with Inker Robotic Solutions present to you a 3-day Workshop on the ‘Internet of Things’, the 
+			    trending vogue of these days. The sessions will be guided by Ms. Anu Antony, the Senior Robotics Engineer at Inker Robotic Solutions Pvt Ltd. 
+			    Join the session to know the core technologies and platforms of IoT to build a new career potential.
+                    </p>
+                    <div class="price-info-ras">
+                        <span>RAS : FREE</span>
+                        <span>IEEE : &#x20b9;100</span>
+                        <span>Non IEEE : &#x20b9;200</span>
+                    </div>
+                    <div class="bt-rs">
+                        <button class="btn" id="btn4">Register Now</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="tour" id="tour">
+
+            <div class="vr-desc">
+                <p>Discover the world’s research on robotics and pursue the opportunity to acquire knowledge and mentoring in an authentic environment. 
+                    Join us for the virtual IV to discover, learn and interact with global participants and reputed personalities from the field of robotics and automation. 
+                    Seize the opportunity to have direct virtual experience and explore the science behind robotics.<br>
+                    <ul class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>26/09/2020</span></li>
+                        <li><i class="far fa-clock"></i><span>4 PM - 5 PM</span></li>
+                    </ul>
+                </p>
+
+                <button class="virtual-button" id="virtualbtn">REGISTER NOW</button>
+            </div>
+
+            <div class="vr">
+                <div class="wrapper">
+                    <h1>Virtual Tour</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="speakers">
+
+            <h1 class="speaker-head">Our speakers</h1>
+
+            <div class="speakers-col">
+
+                <div class="speaker speaker-1">
+                    <img src="speakers-images/speaker-2.jpg" class="speaker-img" alt="">
+                    <h2 class="speaker-name">KRISHNANAND KAIPA</h2>
+                    <p class="speaker-desc">Krishnanand Kaipa is a robotics enthusiast, versatile mentor, and a distinguished engineer who is currently an associate professor 
+                        in the Department of Mechanical and Aerospace engineering at the Old Dominion University. He pursued a Ph.D. in Aerospace Engineering from 
+                        Indian Institute of Technology in the year 2007. He has 22+ years experience in the field of robotics and his broad research is focused on developing 
+                        robots that learn from, and work side-by-side with humans. His research areas of interest involve imitation learning, swarm intelligence, evolutionary 
+                        active learning, advanced manufacturing, motion planning etc. He is the recipient of the Best PhD Thesis and Best Masters Thesis from the Department of 
+                        Aerospace, IISc. He has also issued 27+ publications on various field of robotics.
+                    </p>
+                    <ul  class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>07/08/2020</span></li>
+                    </ul>
+                    <div class="bt-rs">
+                        <button class="btn" onclick="speaker1()">Register Now</button>
+                    </div>
+                </div>
+
+                <div class="speaker speaker-2">
+
+                    <img src="speakers-images/abhi.jpg" class="speaker-img" alt="">
+                    <h2 class="speaker-name">Dr. Abhishek Diggewadi</h2>
+                    <p class="speaker-desc">There is no doubt that robotics in space will make a significant contribution to the future of the space environment. 
+                        To answer the question "What are the opportunities of Robotics in Space?", Dr.Abhishek Diggewadi, Junior Researcher and Project Manager - 
+                        itrust consulting s. à r. l,who has completed Master of Space Studies (MSS) Program 2019 from International Space University (ISU), 
+                        France,will be joining us on REX webinar series on 13 August
+                    </p>
+                    <ul  class="align-items-evenly">
+                        <li><i class="fas fa-calendar-minus"></i><span>13/08/2020</span></li>
+                    </ul>
+                    <div class="bt-rs">
+                        <button class="btn" onclick="speaker2()">Register Now</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <footer class="contact" id="contact">
+
+            <div class="quick-links">
+                <h1>Quick Links</h1>
+                <a href="https://www.ieee.org" target="_blank">IEEE.org</a>
+                <a href="https://ieeexplore.ieee.org" target="_blank">IEEE Xplore Digital Library</a>
+                <a href="https://ieee-collabratec.ieee.org" target="_blank">IEEE Collabratec</a>
+            </div>
+
+            <div class="social">
+                <h1>Connect With Us</h1>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ieeesbrit" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/IEEESBRIT" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/ieeesbrit" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ieee-sb-rit-55a6631aa" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="address">
+
+                <div class="address-sec">
+                    <h1>Address</h1>
+                    <p>RIT College Of Engineering</p>
+                    <p>Pampady, Kottayam, Kerala</p>
+                    <p>Pin: 680711</p>
+                    <p>Email: ieeesb.ritk@gmail.com</p>
+                </div>
+
+                <div class="execom">
+                    <h1>Chairperson</h1>
+                    <p>Martin Joe C: 8921440372</p>
+                    <h1>Counselor</h1>
+                    <p>Anu George: 9447266358</p>
+                    <h1>Webmaster</h1>
+                    <p>Vishnu Ko: 8157065684</p>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <!-- JS File -->
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
